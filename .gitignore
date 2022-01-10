@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+MyNotes/node_modules
+MyNotes/.pnp
+MyNotes-Backend/node_modules
+.pnp.js
+
+# testing
+/coverage
+
+# production
+MyNotes/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+MyNotes/npm-debug.log*
+MyNotes/yarn-debug.log*
+MyNotes/yarn-error.log*
